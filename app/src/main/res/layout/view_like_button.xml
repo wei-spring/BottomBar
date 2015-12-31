@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.edaixi.twitteranimation.DotsView
+        android:id="@+id/vDotsView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center" />
+
+    <com.edaixi.twitteranimation.CircleView
+        android:id="@+id/vCircle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/ivStar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@mipmap/empty_icon" />
+
+    <TextView
+        android:id="@+id/tvMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="菜单1" />
+
+</merge>
